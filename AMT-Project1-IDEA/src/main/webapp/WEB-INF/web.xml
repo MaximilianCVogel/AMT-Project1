@@ -4,4 +4,14 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>DisplayServlet</servlet-name>
+    <servlet-class>amt.project1.presentation.DisplayServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/people</url-pattern>
+  </servlet-mapping>
 </web-app>
